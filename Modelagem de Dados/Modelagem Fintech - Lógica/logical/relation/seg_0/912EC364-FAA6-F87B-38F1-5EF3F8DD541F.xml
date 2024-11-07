@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PAGAMENTO CONTA FK" directorySegmentName="seg_0" id="912EC364-FAA6-F87B-38F1-5EF3F8DD541F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 21:26:26 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<sourcePk>6FDE6BB4-95FD-51AD-8468-FF025C30A056</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2673272B-2A34-0362-3BBF-6134B91BE4EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7557107F-0847-9558-23A8-F1B803B95224</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

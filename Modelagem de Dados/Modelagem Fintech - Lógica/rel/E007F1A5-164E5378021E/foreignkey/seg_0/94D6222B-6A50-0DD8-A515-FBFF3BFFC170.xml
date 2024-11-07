@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94D6222B-6A50-0DD8-A515-FBFF3BFFC170" containerWithKeyObject="5ABFD45F-4841-F4B8-116C-75C44D2C73AF" localFKIndex="CB32B5B6-E5E6-90AF-D229-2A6301D1BC56" name="T_PAGAMENTO_T_CARTAO_CREDITO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>D8EF2FC6-0E87-1420-E619-82F4034FBC2F</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<referredTableLongName>T_CARTAO_CREDITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>89A083B5-6488-8DD5-BB7A-A113FEB2C7B0</referredTableID>
+<keyObject>346C4694-2CA2-76AF-5460-FDD5C34BD47D</keyObject>
+<referredKeyID>346C4694-2CA2-76AF-5460-FDD5C34BD47D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_cartao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

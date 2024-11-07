@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_3" directorySegmentName="seg_0" id="CBB8CE07-DC17-A281-D78C-8D4C5AC36234">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-02 18:28:35 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>A035715C-4C48-6971-EF5F-3F27CE462BA6</sourceEntity>
+<targetEntity>EAACBF8B-FEA5-0D56-6577-AA369C5571A7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11A1B06B-B935-274F-7D53-C851A0F21ECA" containerWithKeyObject="6D1D627F-1FFE-1B29-6E6D-B2FA4147BFF7" localFKIndex="E5541688-4AF0-8627-9615-39E6A5AC9238" name="RECEITA_CONTA_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>8D88F08D-4433-67DC-847C-4C530D18DF69</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<referredTableLongName>T_CONTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36E2E2DB-519F-5A1C-1855-CE68037F6702</referredTableID>
+<keyObject>4E9772AC-E35A-24F1-E36F-3F9C88EABE06</keyObject>
+<referredKeyID>4E9772AC-E35A-24F1-E36F-3F9C88EABE06</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_conta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

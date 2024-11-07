@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DDA1951-8FFC-CC01-C522-A00B4C0742F8" containerWithKeyObject="82FD1F22-D61F-EB75-961A-DD5EB9951C35" localFKIndex="42A7F8DE-5E01-2997-0F81-45A904A30A13" name="T_DESPESA_T_TRANSACAO_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-02 18:46:09 UTC</createdTime>
+<generatorID>CBB8CE07-DC17-A281-D78C-8D4C5AC36234</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<referredTableLongName>T_TRANSACAO</referredTableLongName>
+<arc>FF065996-B8D9-39E2-3F23-A91AFEAC2EFC</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B99EA1CC-C578-40EF-2184-02ECAE643E1A</referredTableID>
+<keyObject>402BE0B8-FC6B-8F39-1948-EC5442B80B63</keyObject>
+<referredKeyID>402BE0B8-FC6B-8F39-1948-EC5442B80B63</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo_transferencia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

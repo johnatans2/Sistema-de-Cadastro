@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7990A99E-0D5E-3B5F-AE3B-53D56EAC53B7" name="T_DESPESA_CONTA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>9591262D-3179-F0E1-3EFE-E201C05CC4D0</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<ordsAlias>despesa_conta</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_despesa" id="38E500EF-A487-480C-7C68-D0197D1D97FD">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>2A8BC9A3-2226-715C-1430-79F0201FDD9F</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4341FBEB-316A-85DF-8E56-3BD6C0D25B4B" referredColumn="EF141E7C-4AE5-1EF0-4357-0A3619257187"/>
+</associations>
+</Column>
+<Column name="codigo_conta" id="9CE46F2C-DCFD-60CD-B146-D9658F2E458F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>1C6C9784-A3CC-6C6C-7C2E-5E3934937CF3</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F2A375B-D0CE-7978-43FF-5450E6492955" referredColumn="8C5A5CA5-C86D-93EC-4874-97CE89DA9B7F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0322B7F3-9B41-3725-92EA-AA08985F79BE" name="T_DESPESA_CONTA_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>8BEF362C-AAF2-901F-50FA-A9F0AC26B74C</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CE46F2C-DCFD-60CD-B146-D9658F2E458F"/>
+<colUsage columnID="38E500EF-A487-480C-7C68-D0197D1D97FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89144FF9-4B75-D5C2-21B8-91A73ACA9E37" name="DESPESA_CONTA__IDX">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2DC5E339-07F2-C7AA-6833-2422362054B5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="38E500EF-A487-480C-7C68-D0197D1D97FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F893EB05-3F47-C506-A4D3-B1A73E2AF37B" name="T_DESPESA_CONTA_T_DESPESA_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>2DC5E339-07F2-C7AA-6833-2422362054B5</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38E500EF-A487-480C-7C68-D0197D1D97FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E5370C7-6076-CB34-DC37-B9CF224D209D" name="T_DESPESA_CONTA_T_CONTA_FK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>31B766A5-E50E-F58E-006E-C2133CB258F1</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CE46F2C-DCFD-60CD-B146-D9658F2E458F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

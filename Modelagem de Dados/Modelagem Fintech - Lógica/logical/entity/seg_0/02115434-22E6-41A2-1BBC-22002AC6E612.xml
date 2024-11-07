@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="02115434-22E6-41A2-1BBC-22002AC6E612" name="T RECEITA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 20:19:24 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A035715C-4C48-6971-EF5F-3F27CE462BA6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo receita" id="D0672ACD-1D23-2BE5-51D4-0CBEEC4AD8BE">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 20:37:50 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo conta" id="15265BDD-4E68-9928-7985-BBA7F7243F20">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-02 18:32:31 UTC</createdTime>
+<generatorID>BBED789D-59BD-CED2-3565-28B4E2890117</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<referedAttribute>A2289B3F-C6A3-5F81-46DB-578E8F1EFC1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="6089DB46-DEAA-49A7-83D1-6EDFE3757EBA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 20:35:21 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="BD093439-1E36-3EC0-C7C5-AC530DA9FA32">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 20:36:01 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="906E4FBC-0BC8-1975-1225-C29B4D49F873" name="RECEITA PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 20:37:57 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D0672ACD-1D23-2BE5-51D4-0CBEEC4AD8BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

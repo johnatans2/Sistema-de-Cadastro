@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1C6A4EE-5CC1-9C69-A1C3-9E33C4951D02" name="T_USUARIO">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>7A8511F8-65C1-3B35-57B5-C7B700F0D358</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<ordsAlias>usuario</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo_usuario" id="C8EB0964-7707-DB06-0542-60452A00C4FB">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-01 01:51:24 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="1BE10FD6-A652-4748-4F29-AE9EB8B3B242">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>FBACF0F5-E133-A892-05EF-362ECB8DA8F8</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="C3758CF8-0DB0-CF15-A9D8-DE6E5627BD3E">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>8A15B953-9D4C-81FB-0E02-5F696B671EC3</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254</dataTypeSize>
+<ownDataTypeParameters>254,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="5449BCD5-CAEF-4E7D-6799-E73F3733A33F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>13B0473F-E157-4BEF-BE40-86FED4E27B98</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foto" id="E2D3031A-6BC9-A277-9D83-C77253F615DC">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>64042037-65DC-7E9A-690E-5F89EA0E83C6</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="415371B6-F81F-C148-F06B-D479AC93CB64" name="T_USUARIO_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-25 01:03:05 UTC</createdTime>
+<generatorID>B39C655A-F0D5-E829-4480-97A68D480CF9</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8EB0964-7707-DB06-0542-60452A00C4FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

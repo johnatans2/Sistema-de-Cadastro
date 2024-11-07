@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="314864E7-D42C-3890-A830-63DCCF7F8CC3" name="T TRANSFERENCIA">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 20:19:28 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A035715C-4C48-6971-EF5F-3F27CE462BA6</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo transferencia" id="115076EA-6279-80C8-14FE-6036DFBF0DDE">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 20:34:37 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo conta" id="22291F0E-651B-DDD1-75B0-F40054973A90">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-02 18:36:55 UTC</createdTime>
+<generatorID>B841FE1F-7932-52C0-F80C-357B43439831</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<referedAttribute>A2289B3F-C6A3-5F81-46DB-578E8F1EFC1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30A108AE-8561-CB76-A7E6-B9ECEEC253C2" name="TRANSFERENCIA PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 20:33:45 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>115076EA-6279-80C8-14FE-6036DFBF0DDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

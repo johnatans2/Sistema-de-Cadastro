@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A8511F8-65C1-3B35-57B5-C7B700F0D358" name="T USUARIO">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 19:55:23 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo usuario" id="1A903DBF-EDAB-4034-DD42-D4727F552AA1">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-02 18:22:31 UTC</createdTime>
+<generatorID>C8EB0964-7707-DB06-0542-60452A00C4FB</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario" id="FBACF0F5-E133-A892-05EF-362ECB8DA8F8">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 19:55:48 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="8A15B953-9D4C-81FB-0E02-5F696B671EC3">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 19:56:04 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>254</dataTypeSize>
+<ownDataTypeParameters>254,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="13B0473F-E157-4BEF-BE40-86FED4E27B98">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 19:57:59 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto" id="64042037-65DC-7E9A-690E-5F89EA0E83C6">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 21:06:43 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B39C655A-F0D5-E829-4480-97A68D480CF9" name="USUARIO PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 19:55:58 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A903DBF-EDAB-4034-DD42-D4727F552AA1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="55BEA10B-1D74-5470-929F-5491B2C99F8A" name="unique_usuario">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-04 20:27:18 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<newElementsIDs>FBACF0F5-E133-A892-05EF-362ECB8DA8F8</newElementsIDs>
+<usedAttributes>
+<attributeRef>FBACF0F5-E133-A892-05EF-362ECB8DA8F8</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="46B304E5-0B39-D355-0817-B26F0B801A42" name="unique_email">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-04 20:28:11 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<newElementsIDs>8A15B953-9D4C-81FB-0E02-5F696B671EC3</newElementsIDs>
+<usedAttributes>
+<attributeRef>8A15B953-9D4C-81FB-0E02-5F696B671EC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

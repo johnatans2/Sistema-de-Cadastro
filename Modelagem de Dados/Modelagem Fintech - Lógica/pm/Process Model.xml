@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="68320D7D-B3EE-B6A0-B8E0-0E599907FCAD">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 18:46:54 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

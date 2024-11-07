@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2951AD83-4CFF-9FC6-9ABE-4BEA70C1212A" name="T DESPESA CARTAO">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 22:20:22 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo despesa" id="3EEE41E4-3E03-27DF-4A05-5A06E9117586">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 22:22:04 UTC</createdTime>
+<generatorID>A2479E32-D1B7-59F4-1684-F734E9F0D9B3</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<referedAttribute>12090DFC-1DA7-C9A9-F550-6F3C134E8F75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo cartao" id="A70BF5B9-F04E-40FE-9BC0-6F05C3C6E32F">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 22:22:22 UTC</createdTime>
+<generatorID>153C9CDE-B0D6-BA7B-31BC-C70550757AC6</generatorID>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<referedAttribute>705AC7DA-5A14-7F02-C692-99E8D92387D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7049CA9-054A-4F48-8968-E983479A3607" name="DESPESA_CARTAO_PK">
+<createdBy>Dell</createdBy>
+<createdTime>2024-05-24 22:22:22 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A70BF5B9-F04E-40FE-9BC0-6F05C3C6E32F</attributeRef>
+<attributeRef>3EEE41E4-3E03-27DF-4A05-5A06E9117586</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

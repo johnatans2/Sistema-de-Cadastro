@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="FF065996-B8D9-39E2-3F23-A91AFEAC2EFC" name="FKArc_1">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-02 18:46:09 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>B99EA1CC-C578-40EF-2184-02ECAE643E1A</table>
+<fkeys>
+<fkeyID>FEA7892D-08D9-16A3-AC3A-0E5499F7D946</fkeyID>
+<fkeyID>7EBCA175-31A2-3D4A-BCBA-59993583555B</fkeyID>
+<fkeyID>2DDA1951-8FFC-CC01-C522-A00B4C0742F8</fkeyID>
+</fkeys>
+</FKArc>

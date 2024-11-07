@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Recebe/Envia" directorySegmentName="seg_0" id="B841FE1F-7932-52C0-F80C-357B43439831">
+<createdBy>Dell</createdBy>
+<createdTime>2024-10-02 18:36:55 UTC</createdTime>
+<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
+<engineerTo>
+<item key="E007F1A5-1C74-7895-82B3-164E5378021E" value="true"/>
+</engineerTo>
+<sourcePk>6FDE6BB4-95FD-51AD-8468-FF025C30A056</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2673272B-2A34-0362-3BBF-6134B91BE4EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>314864E7-D42C-3890-A830-63DCCF7F8CC3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
