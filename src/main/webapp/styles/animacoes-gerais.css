@@ -1,0 +1,4 @@
+.hover-link:hover{
+    color:var(--cor-secundaria);
+    border-color:var(--cor-secundaria);
+}

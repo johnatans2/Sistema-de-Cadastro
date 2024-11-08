@@ -1,0 +1,26 @@
+body{
+    color:var(--cor-de-fundo);
+}
+.hover-link{
+    color:var(--cor-principal);
+}
+.registrar{
+    background-color:var(--cor-principal);
+    border-color:var(--cor-principal);
+    color:#fff;
+}
+.registrar:hover{
+    background-color:var(--cor-secundaria);
+    color:var(--cor-principal)
+}
+@media (min-width:768px){
+    .logar{
+        border-right:2px solid #555;
+    }
+    .logar:hover{
+        border-right-color: #555;
+    }
+}
+.navbar-toggler{
+    color:var(--cor-principal);
+}
