@@ -1,0 +1,155 @@
+.header{
+    background:linear-gradient(135deg,#fff 60%,var(--cor-principal) 60%);
+    height:15vh;
+}
+.background-icones{
+    background-image:url("../images/icones/esfera.png"),url("../images/icones/esfera.png");
+    background-repeat:no-repeat;
+    background-size:10%;
+    background-position:55% 105%,44% 90%;
+}
+.calltoaction{
+    width:60vw;
+}
+.chamada-cadastro{
+    width:80%;
+    margin:2rem 2rem 0rem 4rem;
+}
+.chamada-cadastro h1{
+    font-size:3rem;
+}
+.chamada-cadastro p{
+    font-size:1.9rem;
+    font-weight:500;
+}
+.cadastro{
+    width:44.7vw;
+    height:85vh;
+    background-color:var(--cor-principal);
+    padding:2rem 2rem 2rem 2rem;
+    background-image:url("../images/icones/dinheiro-na-sua-mao.png");
+    background-repeat:no-repeat;
+    background-position:bottom right;
+    background-size:30%;
+
+}
+.form-cadastro{
+    width:75%;
+}
+.form-cadastro h1{
+    text-align:center;
+    font-size:2.4rem;
+}
+.registrar{
+    background-color:var(--cor-terciaria);
+    width:80%;
+    font-size:2rem;
+}
+@media(max-width:699px){
+    .header{
+        background:linear-gradient(#fff 70%,var(--cor-principal) 100%);
+    }
+    .calltoaction{
+        width:0px;
+    }
+    .calltoaction h1,.calltoaction p{
+        display:none;
+    }
+    .cadastro{
+        width:100vw;
+        height:100%;
+        background-image:url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png");
+        background-repeat:no-repeat;
+        background-size:10%;
+        background-position:98% 12%,75% 30%,5% 4%;
+    }
+    .form-cadastro{
+        width:100%;
+    }
+    .form-cadastro h1{
+        font-size:1.6rem;
+    }
+    .registrar{
+        font-size:1.2rem;
+    }
+    @media(min-width:375px){
+        .cadastro{
+            height:85vh;
+            background-size:8%;
+            background-position:98% 5%,83% 20%,2% 0.5%;
+        }
+        .form-cadastro h1{
+            font-size:1.7rem;
+        }
+    }
+    @media(min-width:500px){
+        .cadastro{
+            background-image:url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png");
+            background-size:6%;
+            background-position:98% 5%,83% 22%,3% 4%,93% 83%,5% 70%,15% 84%,bottom;
+            background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+        }
+        .form-cadastro h1{
+            font-size:1.8rem;
+        }
+    }
+}
+@media(min-width:700px){
+    @media(max-width:1023px){
+        @media(min-width:700px){
+            .header{
+                background:linear-gradient(135deg,#fff 57%,var(--cor-principal) 57%);
+            }
+            .background-icones{
+                background-image:url("../images/icones/sifrao.png"),url("../images/icones/sifrao.png");
+                background-size:18%;
+                background-position:5% 110%,30% 90%;
+            }
+            .calltoaction{
+                width:56vw;
+            }
+            .calltoaction h1{
+                font-size:1.7rem;
+            }
+            .chamada-cadastro{
+                margin:2rem;
+            }
+            .calltoaction p{
+                font-size:1.2rem;
+            }
+            .cadastro{
+                width:53vw;
+                background-image:url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png"),url("../images/icones/sifroes.png");
+                background-size:6%;
+                background-position:98% 5%,83% 22%,3% 4%,93% 83%,5% 70%,15% 84%,bottom;
+                background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+            }
+            .form-cadastro{
+                width:100%;
+            }
+            .form-cadastro h1{
+                font-size:1.5rem;
+            }
+            .registrar{
+                font-size:1.5rem;
+            }
+        }
+        @media(min-width:730px){
+            .background-icones{
+                background-size:15%;
+            }
+        }
+        @media(min-width:850px){
+            .header{
+                background:linear-gradient(135deg,#fff 56%,var(--cor-principal) 56%);
+            }
+        }
+    }
+    @media(min-width:1024px){
+        @media(max-width:1236px){
+            .cadastro{
+                height:100%;
+            }
+        }
+    }
+}

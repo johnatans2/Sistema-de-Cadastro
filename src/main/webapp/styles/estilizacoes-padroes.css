@@ -1,0 +1,33 @@
+/* Cor Padrão */
+*{
+    color:var(--cinza-escuro);
+}
+/* Botões */
+.registrar{
+    background-color:var(--cor-principal);
+    color:#fff;
+    border:none;
+    box-shadow:3px 4px 0px 2px #00000050;
+}
+.registrar:hover{
+    background-color:var(--cor-secundaria);
+    color:var(--cor-principal)
+}
+/* Texto em Destaque */
+strong{
+    color:var(--cor-principal);
+}
+.strong-secundario{
+    color:var(--cor-terciaria);
+}
+/* Formulários */
+.form-control{
+    background-color:transparent;
+    border:none;
+    border-bottom:1px solid var(--cinza-claro);
+    border-radius:0px;
+}
+.form-check-input{
+    box-shadow:2px 2px 5px 0px #00000070;
+    border:none;
+}
