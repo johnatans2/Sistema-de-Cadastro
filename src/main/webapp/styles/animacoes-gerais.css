@@ -1,4 +1,24 @@
+/* Links */
 .hover-link:hover{
     color:var(--cor-secundaria);
     border-color:var(--cor-secundaria);
+}
+/* Formulários */
+.form-control:focus{
+    background-color:transparent;
+    box-shadow:none;
+    border-bottom-color:var(--cinza-escuro);
+}
+.form-check-input:focus{
+    box-shadow:2px 2px 5px 0px #00000070;
+    background-color:var(--cor-terciaria);
+}
+.form-check-input:checked{
+    background-color:var(--cor-terciaria);
+}
+/* Botões */
+.registrar:active{
+    transform:translatey(15%);
+    box-shadow:1px 2px 0px 2px #00000050;
+    transition:0.2s;
 }

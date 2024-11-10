@@ -3,15 +3,15 @@
 <html lang="pt-br">
     <head>
         <title>Fintech</title>
-        <%@include file="pages/modularizacao-html/modulo-head.html"%>
-        <link href="styles/estilo-paginaPrincipal.css" rel="stylesheet">
+        <%@include file="pages/modularizacao-html/modulo-head-paginaPrincipal.html"%>
+        <link href="../styles/estilo-paginaPrincipal.css" rel="stylesheet">
     </head>
     <body>
     <header class="p-4">
         <div class="container-lg">
             <section class="navbar navbar-expand-md d-flex justify-content-around">
                 <section class="">
-                    <a href="index.jsp"><img src="images/imagens-usadas/Logo.png" alt="Logo Fintech"></a>
+                    <a href="index.jsp"><img src="images/imagens-usadas/logo.png" alt="Logo Fintech"></a>
                 </section>
                 <section>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -39,7 +39,7 @@
                             <a href="" class="nav-link hover-link logar">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="btn hover-link registrar">Comece Já!</a>
+                            <a href="pages/cadastro.jsp" class="btn hover-link registrar">Comece Já!</a>
                         </li>
                     </ul>
                 </section>
