@@ -146,3 +146,29 @@ input::placeholder {
     font-size: 40px;
     color: #0D7A30;
 }
+
+@media (max-width:1050px) {
+    .logo {
+        width: 100%;  
+    }
+    .left-block h2 {
+        font-size: 26px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .left-block {
+        padding: 40px 84px;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        justify-content: center;
+        background-image: none;
+    }
+    .left-block {
+        width: 100%;
+    }
+}
+
