@@ -3,8 +3,8 @@
 <html lang="pt-br">
     <head>
         <title>Fintech</title>
-        <%@include file="pages/modularizacao-html/modulo-head-paginaPrincipal.html"%>
-        <link href="../styles/estilo-paginaPrincipal.css" rel="stylesheet">
+        <%@include file="pages/modularizacao-html/modulo-head.html"%>
+        <link href="styles/estilo-index.css" rel="stylesheet">
     </head>
     <body>
     <header class="p-4">
@@ -39,13 +39,12 @@
                             <a href="" class="nav-link hover-link logar">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/cadastro.jsp" class="btn hover-link registrar">Comece Já!</a>
+                            <a href="cadastro.jsp" class="btn hover-link registrar">Comece Já!</a>
                         </li>
                     </ul>
                 </section>
             </section>
         </div>
     </header>
-
     </body>
 </html>

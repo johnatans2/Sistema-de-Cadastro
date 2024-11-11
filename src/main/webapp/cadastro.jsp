@@ -1,14 +1,15 @@
 <%@page language="Java" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="jakarta.tags.core"%>
 <html>
 <head>
     <title>Cadastrar-se</title>
-    <%@include file="modularizacao-html/modulo-head.html"%>
-    <link href="../styles/estilo-paginaCadastro.css" rel="stylesheet">
+    <%@include file="pages/modularizacao-html/modulo-head.html"%>
+    <link href="styles/estilo-paginaCadastro.css" rel="stylesheet">
 </head>
 <body>
 <header class="header d-flex align-items-center">
     <div class="container">
-        <a href="../index.jsp"><img src="../images/imagens-usadas/logo.png" alt="Logo Fintech"></a>
+        <a href="index.jsp"><img src="images/imagens-usadas/logo.png" alt="Logo Fintech"></a>
     </div>
 </header>
 <main>
@@ -24,9 +25,11 @@
         <section class="d-flex cadastro">
             <section class="form-cadastro">
                 <h1 class="mb-5">Comece agora e tenha <strong class="strong-secundario">o dinheiro na palma da sua mão</strong></h1>
-                <form method="post">
+                <form method="post" action="cadastrar">
                     <input type="email" class="form-control mb-3" placeholder="E-mail" name="email" required>
+                    <c:if test="${not empty mensagemEmail}"><p class="text-danger">${mensagemEmail}</p></c:if>
                     <input type="text" class="form-control mb-3" placeholder="Usuário" name="usuario" required>
+                    <c:if test="${not empty mensagemUsuario}"><p class="text-danger">${mensagemUsuario}</p></c:if>
                     <input type="password" class="form-control mb-3" placeholder="Senha" name="senha" required>
                     <div class="d-flex justify-content-center my-4">
                         <input type="checkbox" class="form-check-input me-2" required>

@@ -1,8 +1,5 @@
 body{
-    color:var(--cor-de-fundo);
-}
-.hover-link{
-    color:var(--cor-principal);
+    background-color:var(--cor-de-fundo);
 }
 @media (min-width:768px){
     .logar{
@@ -14,4 +11,7 @@ body{
 }
 .navbar-toggler{
     color:var(--cor-principal);
+}
+.registrar{
+    color:#fff;
 }
