@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F10BB6A4-E9B5-B624-C1FE-41116189F1EB" mainViewID="33E9CFC0-AD48-A901-E7FC-660B957CC468">
-<createdBy>Dell</createdBy>
-<createdTime>2024-05-24 18:46:53 UTC</createdTime>
-<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

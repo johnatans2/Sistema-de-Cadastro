@@ -1,5 +1,5 @@
-body{
-    background-color:var(--cor-de-fundo);
+body {
+    background-color: #EDFDF2;
 }
 @media (min-width:768px){
     .logar{
@@ -14,4 +14,77 @@ body{
 }
 .registrar{
     color:#fff;
+}
+.main{
+    overflow: hidden;
+}
+.calltoaction{
+    width:90vw;
+    margin-top:4rem;
+    margin-left:1rem;
+}
+.calltoaction h1{
+    width:85%;
+    font-size:2.3rem;
+}
+.calltoaction p{
+    width:85%;
+    font-size:1.7rem;
+    font-weight:500;
+}
+.calltoaction .registrar{
+    width:70%;
+    font-size:1.5rem;
+}
+.calltoaction .registrar::after{
+    content:url("../images/icones/arrow.png");
+    margin-left:1.3rem;
+    display:inline-block;
+    transform:translateY(10%);
+}
+.calltoaction .registrar:hover::after{
+    content:url('../images/icones/arrow.png');
+    transition:0.5s;
+    transform:translate(20%, 10%);
+}
+@media (min-width:640px){
+    .main{
+        background-image:url('../images/icones/sifrao.png');
+        background-repeat:no-repeat;
+        background-position:100%;
+    }
+    .calltoaction .registrar{
+        width:70%;
+        font-size:1.8rem;
+    }
+    .calltoaction h1{
+        width:auto;
+        font-size:3rem;
+    }
+}
+@media (min-width:770px){
+    .main{
+        background-image:url('../images/icones/sifrao.png'),url('../images/icones/sifrao.png');
+        background-repeat:no-repeat;
+        background-position:80% 90%,95% 0%;
+    }
+    .calltoaction{
+        width:60vw;
+        margin:5rem 0rem 0rem 4rem;
+    }
+    .calltoaction p{
+        font-size:1.9rem;
+        width:auto;
+    }
+}
+@media (min-width:1090px){
+    .calltoaction{
+        width:40vw;
+    }
+    .main{
+        background-image:url('../images/icones/sifrao.png'),url('../images/icones/sifrao.png'),url('../images/icones/mao.png');
+        background-repeat:no-repeat;
+        background-position:58% 90%,70% 0%,100% 0%;
+        background-size:auto,auto,contain;
+    }
 }

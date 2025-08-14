@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Conexão com o Banco de Dados ###
+src/main/java/br/com/fintech/dao/Conexao.java

@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelagem Fintech - Lógica" id="4BA8CDDF-F381-7076-5CA4-099BB1711037" version="3.5">
-<createdBy>Dell</createdBy>
-<createdTime>2024-05-24 18:46:53 UTC</createdTime>
-<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>4BA8CDDF-F381-7076-5CA4-099BB1711037</designId>
-</OSDM_Design>

@@ -6,7 +6,7 @@
         <%@include file="pages/modularizacao-html/modulo-head.html"%>
         <link href="styles/estilo-index.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="body">
     <header class="p-4">
         <div class="container-lg">
             <section class="navbar navbar-expand-md d-flex justify-content-around">
@@ -36,7 +36,7 @@
                 <section>
                     <ul class="navbar-nav navbar-collapse collapse" id="navbarSupportedContent">
                         <li class="nav-item me-2">
-                            <a href="" class="nav-link hover-link logar">Login</a>
+                            <a href="cadastro.jsp" class="nav-link hover-link logar">Login</a>
                         </li>
                         <li class="nav-item">
                             <a href="cadastro.jsp" class="btn hover-link registrar">Comece Já!</a>
@@ -46,5 +46,14 @@
             </section>
         </div>
     </header>
+    <main class="main">
+        <section class="container">
+            <section class="calltoaction">
+                <h1 class="mb-5"><strong>Fintech</strong>, o seu gestor de finanças online!</h1>
+                <p class="strong-secundario mb-5">Gerencie suas finanças de maneira fácil, rápida, e melhor, gratuita</p>
+                <a href="cadastro.jsp" class="btn hover-link registrar">Experimente agora</a>
+            </section>
+        </section>
+    </main>
     </body>
 </html>

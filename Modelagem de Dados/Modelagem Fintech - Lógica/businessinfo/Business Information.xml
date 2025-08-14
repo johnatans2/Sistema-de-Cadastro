@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="F69F0AEA-3177-5F43-58B2-8C6ABF7AE31F">
-<createdBy>Dell</createdBy>
-<createdTime>2024-05-24 18:46:54 UTC</createdTime>
-<ownerDesignName>Modelagem Fintech - Lógica</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
